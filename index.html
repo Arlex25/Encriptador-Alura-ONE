@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <title>Encriptador</title>
+</head>
+<body class="home-body">
+
+    <header class="header">
+
+        <div class="social">
+            <div class="social-icons">
+                <a href="https://github.com/Arlex25"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/duber-arlex-henao-mu%C3%B1oz-6029ab271/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://youtube.com/shorts/Sih8HI6Ubc0?feature=share"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="nav-logo">
+                <a href="https://app.aluracursos.com/user/arlex25">
+                    <img src="./img/Logo.svg" alt="Logo de Aluraa">
+                </a>  
+            </div>
+            <div class="nav-text">
+                <img class="img-titulo" src="./img/icons8-encriptar.svg" alt="Logo de encriptar">
+                <h1>ENCRIPTADOR</h1>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main class="home-main">
+
+        <section class="contenedor">
+            <div class="contenedor-entrada">
+                <div class="consola-entrada">
+                    <textarea class="input-texto" name="" id="texto" cols="30" rows="10" placeholder="Ingrese el texto aqui" ></textarea>
+
+                    <div class="advertencia">
+                        <img src="./img/advertenci_12453.png" alt="Icono Advertencia" width="16" height="46">
+                        <p >Solo minúsculas sin acentos</p>
+                    </div>
+
+                </div>
+                <div class="contenedor-buttons">
+                    <button class="encriptar" id="encriptar">Encriptar</button>
+                    <button class="desenciptar" id="desencriptar">Desencriptar</button>
+                </div>
+            </div>
+            <div class="contenedor-salida">
+                <div class="consola-salida">
+                    <textarea class="output-texto" name="" id="" cols="30" rows="10"></textarea>
+                    <div class="informacion">
+                        <p class="msjInicial">Esperando mensaje para encriptar</p>
+                        <p class="msjError" style="display: none;">No se ha ingresado ningún</p>
+                        <p class="msjEncriptado" style="display: none;">Este es el mensaje encriptado</p>
+                        <p class="msjDesencriptado" style="display: none;">Este es el mensaje desencriptado</p>
+                    </div>                    
+                </div>
+
+                <div class="contenedor-buttons">
+                    <button class="copiar" id="copiar">Copiar</button>
+                    <button class="pegar" id="pegar">Pegar</button>
+                </div>
+            </div>
+        </section>        
+        
+    </main>
+
+    <footer>
+        <img class="img-footer" src="./img/icons8-security-96.png" alt="Logo de desenciptar">        
+        <p>Elaborado por Arlex Henao</p>
+    </footer>
+    
+</body>
+</html>
+
+<script src="./js/script.js"></script>
+
+<!-- Iconos usados -->
+<!-- <a target="_blank" href="https://icons8.com/icon/44033/contrase%C3%B1a">Encriptar</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+<!-- <a href="https://www.flaticon.es/iconos-gratis/hacker" title="hacker iconos">Hacker iconos creados por Freepik - Flaticon</a> -->
